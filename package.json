@@ -1,0 +1,22 @@
+{
+  "name": "connect-no-www",
+  "description": "Simple no-www redirection as connect middleware",
+  "version": "0.1.0",
+  "author": "Vincent Woo",
+  "main": "./nowww.js",
+  "dependencies": {
+    "connect": "*"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "directories": {
+    "lib": "."
+  },
+  "files": [
+    ""
+  ],
+  "repository": {
+    "url": ""
+  }
+}
