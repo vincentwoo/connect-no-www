@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/vincentwoo/connect-no-www.png)](http://travis-ci.org/vincentwoo/connect-no-www)
 connect-no-www
 --------------
 
