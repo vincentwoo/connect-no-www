@@ -5,9 +5,9 @@ Connect middleware to redirect clients from www.yourhost.com to yourhost.com
 
 Usage:
 
-    npm install connect-no-wwww
+    npm install connect-no-www
 
-    nowww = require('connect-no-wwww');
+    nowww = require('connect-no-www');
     nowww(secure); // returns middlware, true if https, false or optional otherwise
     
 Example:
