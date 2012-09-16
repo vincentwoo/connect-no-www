@@ -5,7 +5,6 @@
   "author": "Vincent Woo <me@vincentwoo.com> (http://vincentwoo.com)",
   "main": "./index.js",
   "dependencies": {
-    "connect": "*"
   },
   "engines": {
     "node": "*"
