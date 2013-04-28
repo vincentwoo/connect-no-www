@@ -1,7 +1,7 @@
 {
   "name": "connect-no-www",
   "description": "Simple no-www redirection as connect middleware",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Vincent Woo <me@vincentwoo.com> (http://vincentwoo.com)",
   "main": "./index.js",
   "dependencies": {

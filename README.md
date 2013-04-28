@@ -9,7 +9,7 @@ Usage:
 
     nowww = require('connect-no-www');
     nowww(secure); // returns middlware, true if https, false or optional otherwise
-    
+
 Example:
 
     var connect = require('connect')
@@ -20,12 +20,17 @@ Example:
           cert: fs.readFileSync('ryans-cert.pem')
         };
 
-    // https
-    connect.createServer(options, 
+    // deduce from request (looks at req.connection.encrypted or forwarded header)
+    connect.createServer(
+      nowww()
+    ).listen(80);
+
+    // https always
+    connect.createServer(options,
       nowww(true)
     ).listen(443);
 
-    // http
+    // http always
     connect.createServer(
       nowww(false)
     ).listen(80);
